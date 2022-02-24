@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(91, 153, 132);
+    color: rgb(255, 255, 255) ;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px solid rgb(255, 255, 255);
+width: 28vw;
+padding: 2vh;
+height: 50vh;
+position: relative;
+
+}
+
+#quantidade{
+display: none;
+
+}
+
+#botao{
+position: absolute;
+bottom: 100px;
+
+}

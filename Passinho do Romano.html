@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="passinho.js"></script>
+    <title>Passinho</title>
+    <script src="passinho.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <form onsubmit="print()">
+    <form>
         <label>Mensagem</label>
         <input type="text" id="texto" class="textos">
-        <input type="radio" id="base64"> Base64
-        <input type="radio" id="cesar"> Cesar
-        <input type="submit">
+        <input type="radio" name="escolha" id="base64"> Base64
+        <input type="radio" name="escolha" id="cesar"> Cesar
+        <input type="number" id="quantidade">
+        <input type="radio" name="opcao" id="codificar"> Codificar
+        <input type="radio" name="opcao" id="decodificar">Decodificar
+        <button type="submit"  id="botao">Enviar</button>
+    </form>
 
-</html>
-
-<form onsubmit="print()">
-    <label>Mensagem</label>
-    <input type="text" id="texto" class="textos">
-    <input type="radio" id="base64"> Base64
-    <input type="radio" id="cesar"> Cesar
-    <input type="submit">
 
 </body>
+
+
+</html>
